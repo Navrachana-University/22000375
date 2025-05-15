@@ -1,0 +1,21 @@
+BEGIN
+
+set x = 5
+set y = 10
+let z = x + y
+let w = x - y
+let v = x * y
+let u = x / y
+
+if (z > 10) then{
+    z = z - 1
+}
+else {
+    z = z + 1
+}
+
+while z < 20 do
+    z = z + 1
+end
+
+CLOSE
